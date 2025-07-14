@@ -18,6 +18,7 @@ import logic.Encoder
 import logic.Decoder
 import java.io.File
 
+@Suppress("FunctionName")
 @Composable
 fun App() {
     var inputFilePath by remember { mutableStateOf("") }
